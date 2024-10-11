@@ -1,3 +1,28 @@
+/* Estilo geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* Estilo da seção de perfil */
 .perfil {
     display: flex;
@@ -56,30 +81,90 @@
     text-decoration: underline;
 }
 
-/* Resto do CSS existente */
-
-/* Estilo geral */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Estilo das seções de projeto */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f4f4f4;
+.post {
+    max-width: 300px;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.post:hover {
+    transform: translateY(-5px);
+}
+
+.imagem-container {
+    position: relative;
+}
+
+.imagem-container img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.descricao {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.descricao h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
     color: #333;
 }
 
-header {
+.descricao p {
+    font-size: 16px;
+    color: #666;
+}
+
+.descricao a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.descricao a:hover {
+    background-color: #555;
+}
+
+/* Estilo do rodapé */
+footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 20px 0;
+    margin-top: 40px;
 }
 
-h1 {
-    font-family: 'Roboto', sans-serif;
+footer p {
+    margin-bottom: 10px;
 }
 
-main
+footer a {
+    color: #00ffcc;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
