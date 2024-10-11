@@ -1,4 +1,22 @@
-perfil {
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.perfil {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,6 +42,9 @@ perfil {
 .perfil-info {
     flex: 2;
     padding-left: 20px;
+    text-align: center; /* Centraliza o texto */
+    background-color: #666; /* Fundo cinza */
+    padding: 20px; /* Adiciona um pouco de espaço interno */
 }
 
 .perfil-info h2 {
@@ -53,24 +74,6 @@ perfil {
 
 .contato a:hover {
     text-decoration: underline;
-}
-
-body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-}
-
-h1 {
-    font-family: 'Roboto', sans-serif;
 }
 
 main {
@@ -121,6 +124,23 @@ main {
 .descricao p {
     font-size: 16px;
     color: #666;
+}
+
+/* Estilo para os botões */
+.descricao a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px; /* Adiciona preenchimento */
+    background-color: #00ffcc; /* Cor do botão */
+    color: #333; /* Cor do texto */
+    border-radius: 5px; /* Bordas arredondadas */
+    text-decoration: none; /* Remove sublinhado */
+    font-weight: bold; /* Destaca o texto */
+    transition: background-color 0.3s ease; /* Transição suave para a cor do fundo */
+}
+
+.descricao a:hover {
+    background-color: #009c99; /* Cor do botão ao passar o mouse */
 }
 
 footer {
