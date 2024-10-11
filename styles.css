@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #0f0f0f;
+    color: #f5f5f5;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+header {
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 50px 0;
+    border-bottom: 2px solid #3c3c3c;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #00ffcc;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #e0e0e0;
+    margin-top: 10px;
+}
+
+nav {
+    background-color: #1a1a1a;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #00ffcc;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+section {
+    margin: 50px 0;
+}
+
+h2 {
+    font-size: 2rem;
+    border-bottom: 2px solid #00ffcc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #b0b0b0;
+}
+
+.projects-list {
+    list-style-type: none;
+}
+
+.projects-list li {
+    margin-bottom: 15px;
+}
+
+.projects-list li a {
+    color: #00ffcc;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.projects-list li a:hover {
+    color: #ffffff;
+}
+
+.social-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-links li a {
+    color: #00ffcc;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-links li a:hover {
+    color: #ffffff;
+}
+
+footer {
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 2px solid #3c3c3c;
+    margin-top: 50px;
+}
+
+footer p {
+    color: #e0e0e0;
+}
