@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #333; /* Cinza escuro do cabeçalho */
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -21,7 +21,7 @@ h1 {
     justify-content: center;
     align-items: center;
     padding: 40px 20px;
-    background-color: #333;
+    background-color: #333; /* Mantém a cor do fundo igual ao cabeçalho */
     color: #fff;
     border-bottom: 1px solid #00ffcc;
 }
@@ -36,14 +36,14 @@ h1 {
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid #00ffcc;
+    border: 3px solid #c32c1c; /* Borda da foto em vermelho */
 }
 
 .perfil-info {
     flex: 2;
     padding-left: 20px;
     text-align: center; /* Centraliza o texto */
-    background-color: #f4f4f4; /* Fundo cinza claro */
+    background-color: #333; /* Fundo cinza escuro igual ao cabeçalho */
     padding: 20px; /* Adiciona um pouco de espaço interno */
 }
 
