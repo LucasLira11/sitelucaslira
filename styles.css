@@ -32,8 +32,8 @@ h1 {
 }
 
 .perfil-imagem-container img {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid #c32c1c; /* Borda da foto em vermelho */
@@ -85,7 +85,7 @@ main {
 }
 
 .post {
-    max-width: 300px;
+    max-width: 500px;
     background-color: #fff;
     border-radius: 15px;
     overflow: hidden;
