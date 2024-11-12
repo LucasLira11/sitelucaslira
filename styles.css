@@ -1,0 +1,150 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #333;
+    color: #fff;
+    border-bottom: 1px solid #00ffcc;
+}
+
+.perfil-imagem-container {
+    flex: 1;
+    text-align: center;
+}
+
+.perfil-imagem-container img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #c32c1c;
+}
+
+.perfil-info {
+    flex: 2;
+    padding-left: 20px;
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
+}
+
+.perfil-info h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.perfil-info p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.contato {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contato li {
+    margin-bottom: 10px;
+}
+
+.contato a {
+    color: #c32c1c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contato a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.post {
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.post:hover {
+    transform: translateY(-5px);
+}
+
+.imagem-container {
+    position: relative;
+}
+
+.imagem-container img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.descricao {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.descricao h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.descricao p {
+    font-size: 16px;
+    color: #666;
+}
+
+.descricao a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px; 
+    background-color: #c32c1c;
+    color: #fff; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    font-weight: bold; 
+    transition: background-color 0.3s ease; 
+}
+
+.descricao a:hover {
+    background-color: #7c7c7c;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
