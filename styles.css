@@ -87,11 +87,11 @@ main {
 
 .post {
   max-width: 500px;
-  background-color: #fff;
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
+  margin-top: 50px;
 }
 
 .post:hover {
@@ -107,11 +107,11 @@ main {
   height: auto;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  margin-top: 70px;
 }
 
 .descricao {
   padding: 15px;
-  background-color: rgba(255, 255, 255, 0.9);
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
@@ -119,12 +119,12 @@ main {
 .descricao h2 {
   font-size: 20px;
   margin-bottom: 10px;
-  color: #333;
+  color: #fff;
 }
 
 .descricao p {
   font-size: 16px;
-  color: #666;
+  color: #fff;
 }
 
 .descricao a {
@@ -269,5 +269,17 @@ section {
   max-width: 800px;
   margin: 20px auto;
 }
-
+.tituloprojeto{
+  position: absolute;
+  top: 16%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem; /* Ajuste o tamanho da fonte conforme necessário */
+  color: #fff; /* Cor do texto */
+  text-align: center; /* Centraliza o texto horizontalmente */
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
 
