@@ -1,0 +1,273 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.perfil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: black;
+  color: #fff;
+  border-bottom: 1px solid #c32c1c;
+}
+
+.perfil-imagem-container {
+  flex: 1;
+  text-align: center;
+}
+
+.perfil-imagem-container img {
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  margin-left: 200px;
+  object-fit: cover;
+  border: 3px solid #c32c1c;
+}
+
+.perfil-info {
+  flex: 2;
+  padding-left: 20px;
+  text-align: center;
+  background-color: black;
+  padding: 20px;
+}
+
+.perfil-info h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.perfil-info p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.contato {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contato li {
+  margin-bottom: 10px;
+}
+
+.contato a {
+  color: #c32c1c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contato a:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.post {
+  max-width: 500px;
+  background-color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.post:hover {
+  transform: translateY(-5px);
+}
+
+.imagem-container {
+  position: relative;
+}
+
+.imagem-container img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.descricao {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.descricao h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.descricao p {
+  font-size: 16px;
+  color: #666;
+}
+
+.descricao a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px; 
+  background-color: #c32c1c;
+  color: #fff; 
+  border-radius: 5px; 
+  text-decoration: none; 
+  font-weight: bold; 
+  transition: background-color 0.3s ease; 
+}
+
+.descricao a:hover {
+  background-color: #7c7c7c;
+}
+
+footer {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.logo {
+  width: 20%;
+  height: auto;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: #000;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ddd;
+}
+
+/* Botão "HIRE ME" */
+.hire-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background: linear-gradient(45deg, #c32c1c, black);
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+
+.hire-button:hover {
+  transform: scale(1.1);
+}
+
+/* Definindo um fundo e centralização para a página */
+body {
+  background-color: black;
+  color: #e0e0e0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Estilo para os títulos das seções */
+h1, h2 {
+  font-size: 2rem;
+  color: #c32c1c; /* verde moderno */
+  margin: 20px 0;
+  text-transform: uppercase;
+  border-bottom: 2px solid #c32c1c;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Estilo para os parágrafos de descrição */
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 10px 0;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Estilo para listas (como soft skills) */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1rem;
+  padding: 5px 0;
+  position: relative;
+}
+
+/* Adicionando ícones de ponto na frente dos itens */
+ul li::before {
+  content: "•";
+  color: #c32c1c;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-right: 10px;
+}
+
+/* Espaçamento adicional entre as seções */
+section {
+  margin-top: 40px;
+}
+
+/* Caixa de conteúdo centralizado com sombra */
+.container {
+  background-color: #1c1c1c;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+
